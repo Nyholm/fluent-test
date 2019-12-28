@@ -2,7 +2,7 @@
 Few classes to make your Symfony tests more readable
 
 ## `RequestBuilder`
-Since `Symfony\Bundle\FrameworkBundle\Client::request` has 7 optional parameters, arbitrary ordered, this class follows a [builder pattern](https://en.wikipedia.org/wiki/Builder_pattern) to construct the request using semantic methods:
+Since `Symfony\Bundle\FrameworkBundle\KernelBrowser::request` has 7 optional parameters, arbitrary ordered, this class follows a [builder pattern](https://en.wikipedia.org/wiki/Builder_pattern) to construct the request using semantic methods:
 
 ### Usage
 #### Before
